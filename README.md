@@ -65,10 +65,13 @@ For virtual machines, we use QEMU provisioned with the Proxmox Web UI.
 
 - GitLab
 
+## Where we're at right now
+
+We are currently in the migration phase from Crisco to Jojoba. Crisco will remain as the AI server, and Jojoba will host everything else. 
+
 ## Going Forward
 
-We have a loose plan in place for where we'd like to be with our servers. We will be migrating most services from Crisco to Jojoba. Crisco will remain as the AI server, and Jojoba will host everything else. Once we have the migration 
-complete, we will be migrating services to Kubernetes. We would then be aiming to create a physical cluster, with a node at Ben's house, and a node at my house. A self-hosted home security and home automation system will come in the future.
+Once we have the migration complete, we will be migrating services to Kubernetes. We would then be aiming to create a physical cluster, with a node at Ben's house, and a node at my house. A self-hosted home security and home automation system will come in the future.
 
 
 
